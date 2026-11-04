@@ -1,0 +1,220 @@
+# a = "egel"
+# print(a)
+
+# a = 15
+# b = 23
+# print(a+b)
+
+# a = 8
+# b = 5
+# print(a*b)
+
+# a = 7
+# print(a*2)
+
+# a = 15
+# print(a+1)
+
+# c = 20
+# print(c*9/5+32)
+
+# z = int(input())
+# a = z // 10
+# b = z % 10
+# print(a + b)
+
+# #################################### ZAS
+
+# n = int(input())
+# a = int(str(n)[::-1])
+# print(a)
+
+# n = int(input())
+# tsag = n // 60
+# minute = n % 60
+# print(tsag, minute)
+
+# n = int(input())
+# minute = n // 60
+# second = n % 60
+# print(minute, second)
+
+# n = int(input())
+# if n > 0:
+#     print("Eyreg")
+# elif n < 0:
+#     print("Sorog")
+# else:
+#     print("0 bn")
+
+# p = int(input())
+# if p % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+
+# nas = int(input())
+# if nas >= 18 :
+#     print("Tom xun")
+# else:
+#     print("Jooxon xuuxed")
+
+
+# a = int(input("1-r too: "))
+# b = int(input("2-r too: "))
+# if a > b:
+#     print("Ih too:", a)
+# elif b > a:
+#     print("Ih too:", b)
+# else:
+#     print("Ene 2 too tentsuu bna")
+
+# a, b, c, = map(int, input()split())
+# a = int(input("1-r too: "))
+# b = int(input("2-r too: "))
+# c = int(input("3-r too: "))
+# if c > a and c > b:
+#     print("3-r too ix")
+# else:
+#     print("3-r too ix bish")
+
+# onoo = int(input())
+# if onoo < 0 or onoo > 100:
+#     print("onoogoo zov ogoocee")
+# elif onoo >= 90:
+#     print("A")
+# elif onoo >= 80:
+#     print("B")
+# elif onoo >= 70:
+#     print("C")
+# elif onoo >= 60:
+#     print("D")
+# else:
+#     print("boli2")
+
+# a = int(input())
+# if a % 3 == 0:
+#     print("3T XUVAAGDANA")
+# else:
+#     print("3T XUVAAGDAXGUI")
+
+# a = int(input("1-r too: "))
+# b = int(input("2-r too: "))
+# c = int(input("3-r too: "))
+# if a >= b and a >= c:
+#     print("Xamgiin baga:", a)
+# elif b >= a and b >= c:
+#     print("Xmgiin baga:", b)
+# else:
+#     print("Xamgiin baga:", c)
+
+# x = int(input())
+# if 10 <= x <= 50:
+#     print("YES")
+# else:
+#     print("NO")
+
+# a = int(input("xeden nastai ve? "))
+# tasalbar = input("tasalbar baigaa yu? ")
+# if 12 >= a and a > 0:
+#     print("Enter")
+# elif a > 12:
+#     if tasalbar == "YES" or tasalbar == "yes" or tasalbar== "tiim":
+#         print("ENTER")
+#     else:
+#         print("DO NOT ENTER")
+# else:
+#     print("oruulaxgue")
+
+# age = int(input("nas?: "))
+# ticket = input("tasalbar?: ")
+# if age < 12 or ticket.lower() == "yes":
+#     print("ENTER")
+# else:
+#     print("NO")
+
+# onoo = int(input("Onoo?", ))
+# irts = int(input("Irts?", ))
+# if 60 <= onoo and irts >= 80:
+#     print("Ci tentslee")
+# else:
+#     print("Ci tentseegue!")
+
+# username = input("Username?", )
+# password = input("PASS?", )
+# if username == "python123" and password == "python123":
+#     print("LOGGED IN SUCCESFULLY!!")
+# else:
+#     print("FAILED!!!")
+
+# too1, too2, too3 = map(int, input().split())
+# if too1 > too2 and too1 < too3:
+#     print("dund taliin too : ", too1)
+# elif too2 > too1 and too2 < too3:
+#     print("dund taliin too : ", too2)
+# else:
+#     print("dund taliin too : ", too3)
+
+# onoo = int(input("Onoo?", ))
+# irts = int(input("Irts?", ))
+# if 90 <= onoo and irts >= 90:
+#     print("Excellent!")
+# elif 70 <= onoo and irts >=80:
+#     print("Good job!")
+# else:
+#     print("XICEEX XERGTEI SHU")
+
+# week = int(input("Xeddex odor ve?  .", ))
+# if 1 <= week <= 5:
+#     print("Workday")
+# elif 6 <= week <= 7:
+#     print("Weekend")
+# else:
+#     print("Iim odor baixgui!!")
+
+# ok = int(input("Toogoo oruul!", ))
+# if 100 < ok and ok %2==0:
+#     print("Large even")
+# elif 100 >= ok >= 0:
+#     print("medium")
+# elif ok < 0:
+#     print("negative")
+
+# une = int(input("une?"))
+# age = int(input("nas?"))
+# if age < 18:
+#     une = une * 0.8
+# elif age > 60:
+#     une = une * 0.7
+# print(une)
+
+# a = int(input("a?"))
+# b = int(input("b?"))
+# c = int(input("c?"))
+# if a + b > c and a + c > b and b + c > a:
+#     print("YES")
+# else:
+#     print("NO")
+
+# age = int(input("nas?"))
+# password = input("pass?")
+# admin = input("admin monuu?")
+# if age < 18:
+#     print("NO")
+# elif password != "1234":
+#     print("PASSWORD BURUU")
+# elif admin == "yes":
+#     print("ADMIN ACCESS")
+# else:
+#     print("USER ACCESS")
+
+# uld = int(input("uldegdel?"))
+# avax_dun = int(input("avax dun?"))
+# if avax_dun <= 0:
+#     print("Invalid amount")
+# if avax_dun > uld:
+#     print("Insufficient balance")
+# if uld % 1000 != 0:
+#     print("Invalid amount")
+# print("remaining", uld - avax_dun)

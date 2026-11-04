@@ -1,0 +1,37 @@
+# a = "Python хэл сурахад хялбар "
+# ug = a.split()
+# print(len(ug))
+
+# ug = input().split()
+# urt = ug[0]
+# for i in ug:
+#     if len(i) > len(urt):
+#         urt = i
+# print(urt)
+
+# ug = input().lower()
+# count = 0
+# for i in ug:
+#     if i == 'а' or i == 'э' or i == 'и' or i == 'о' or i == 'у' or i == 'ө' or i == 'ү':
+#         count += 1
+# print(count)
+
+# ug = input().split()
+# tool = input()
+# count = 0
+# for i in ug:
+#     if i == tool:
+#         count += 1
+# print(count)
+
+# ug = input().split()
+# ug.sort()
+# dun = " ".join(ug)
+# print(dun)
+
+# ug = input().split()
+# dun = 0
+# for i in ug:
+#     if ug == ug[::-1]:
+#        dun += 1
+# print(i)

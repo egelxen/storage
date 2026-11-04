@@ -1,0 +1,133 @@
+#1
+# colors = ("ulaan", "nogoon", "tsenxer")
+# print(colors)
+
+#2
+# animals = ("dog", "cat", "rabbit", "horse")
+# print(animals[0])
+# print(animals[2])
+# print(animals[-1])
+
+#3 
+# a = (100,)
+# print(type(a))
+
+#4
+# xiceel = ("Математик", "Монгол хэл", "Англи хэл", "Python")
+# print(xiceel[0])
+# print(xiceel[2])
+# print(xiceel[3])
+
+#5
+# n = (10, 20, 30, 40, 50)
+# print(n[:3])
+
+#6
+# n = (10, 20, 30, 40, 50)
+# print(n[-3:])
+
+#7
+# jimsnuud = ("алим", "банана", "жүрж", "усан үзэм")
+# print(len(jimsnuud))
+
+#8
+# n = (45, 12, 89, 23, 7)
+# print("xamgiin ih:", max(n))
+# print("xamgiin baga:", min(n))
+
+#9
+# n = (80, 90, 70, 100)
+# print("niilber:", sum(n))
+# print("dundaj:", sum(n) / len(n))
+
+#10
+# n = (50, 10, 40, 20, 30)
+# print(sorted(n))
+
+#11
+# n = (10, 20, 10, 30, 10, 40)
+# print(n.count(10))
+
+#12
+# n = ("alim", "banana", "jurj", "usan uzem")
+# print(n.index("jurj"))
+
+#13
+# n = ("noxoi", "muur", "tuulai")
+# a = input()
+# if a in n:
+#     print("bn")
+# else:
+#     print("bxgu")
+
+#14
+# n = ("anu", 12, "7A")
+# name, age, student_class = n
+# print("Ner:", name)
+# print("Nas:", age)
+# print("Angi:", student_class)
+
+#15
+# coordinate = (15, 25)
+# x, y = coordinate
+# print("x =", x)
+# print("y =", y)
+
+#16
+# book = ("Python surax", "bat", 250)
+# title, author, pages = book
+# print("Nom:", title)
+# print("Zohiolch:", author)
+# print("Huudas:", pages)
+
+#17
+# a = 5
+# b = 10
+# a, b = b, a
+# print("a =", a)
+# print("b =", b)
+
+#18
+# n = (10, 20, 30, 40, 50)
+# first, *others = n
+# print("Ehnii utga:", first)
+# print("Uldsen utguud:", others)
+
+#19
+# n = (1, 2, 3, 4, 5, 6)
+# first, *middle, last = n
+# print("exnii:", first)
+# print("dundax:", middle)
+# print("suuliin:", last)
+
+#20
+# surgc = ("temuln", "mate", "Python", "english")
+# ner, *xiceel = surgc
+# print("suragch:", ner)
+# print("xicheeluud:", xiceel)
+
+#21
+# baraa = ("devter", 3500, 4)
+# name, price, quantity = baraa
+# print("baraa:", name)
+# print("negj une:", price)
+# print("too shirheg:", quantity)
+# print("niit une:", price * quantity)
+
+#22
+# suragc = (("anu", 90), ("bat", 75), ("saraa", 100))
+# for ner, dun in suragc:
+#     print(ner, dun)
+
+#23
+# suragc = (("anu", 90), ("bat", 75), ("saraa", 100))
+# for ner, dun in suragc:
+#     if dun >= 80:
+#         print(ner)
+
+#24
+# colors = ("ulaan", "nogoon", "tsenxer")
+# a = list(colors)
+# a.append("shar")
+# colors = tuple(a)
+# print(colors)

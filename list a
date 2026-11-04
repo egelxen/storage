@@ -1,0 +1,6 @@
+# duu = list(map(str, input() .split()))
+# removed = duu.pop(1)
+# duu.sort()
+# duu.append("sanal bolgson: 290 y u lie" )
+# print(duu)
+

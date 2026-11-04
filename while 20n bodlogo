@@ -1,0 +1,185 @@
+# n = int(input())
+# i = 1
+# while i <= n:
+#     print(i)
+#     i += 1
+
+# n = int(input())
+# while n > 0:
+#     print(n)
+#     n -= 1
+
+# n = int(input("oruulsan too"))
+# i = 1
+# while i <= n:
+#     i += 1 
+#     if i % 2 == 0:
+#         print(i)
+
+# n = int(input("oruulsan too"))
+# i = 1
+# while i <= n:
+#     i += 1 
+#     if i % 2 == 1:
+#         print(i)
+
+# N = int(input())
+# total = 0
+# i = 1
+# while i <= N:
+#     total += i
+#     i += 1
+# print(total)
+
+# n = int(input())
+# total = 0
+# i = 1
+# while i <= n:
+#     if i % 2 ==0:
+#         total += i
+#     i += 1
+# print(total)
+
+# n = int(input())
+# i = 1
+# while i <= n:
+#     if i % 3 == 0:
+#         print(i)
+#     i += 1
+
+# n = int(input("xeden too oruulax ve: "))
+# eyreg = 0
+# sorog = 0
+# zero = 0
+# i = 0
+# while i < n:
+#     x = int(input("Too oruul: "))
+#     if x > 0:
+#         eyreg += 1
+#     elif x < 0:
+#         sorog += 1
+#     else:
+#         zero += 1
+#     i += 1
+# print("Eyreg too:", eyreg)
+# print("Sorog too:", sorog)
+# print("Teg too:", zero)
+
+# n = int(input("N = "))
+# i = 0
+# total = 0
+# while i < n:
+#     x = int(input("Too = "))
+#     if x > 0:
+#         total += x
+#     i += 1
+# print("Eyreg toonuudiin niilber:", total)
+
+# n = int(input("n = "))
+# i = 0
+# max = 0
+# while i < n:
+#     s = int(input("too ="))
+#     if i == 0:
+#         max = s 
+#     elif s > max:
+#         max = s
+#     else:
+#         max = max
+#     i += 1
+# print("xamgiin ix too:", max)
+
+#11
+# n = int(input("n = "))
+# i = 0
+# min = 0
+# while i < n:
+#     s = int(input("too ="))
+#     if i == 0:
+#         min = s 
+#     elif s < min:
+#         min = s
+#     else:
+#         min = min
+#     i += 1
+# print("xamgiin baga too:", min)
+#12
+# n = int(input())
+# for i in range(1, n + 1):
+#     if i % 3 == 0 and i % 5 == 0:
+#         print(i)
+#13
+# n = int(input())
+# count = 0
+# if n == 0:
+#     count = 1
+# else:
+#     while n != 0:
+#         n = n // 10
+#         count += 1
+# print(count)
+#14
+# n = int(input())
+# total = 0
+# while n > 0:
+#     too = n % 10
+#     total += too
+#     n = n // 10
+# print(total)
+#15
+# n = int(input())
+# urvuu = 0
+# while n > 0:
+#     digit = n % 10
+#     urvuu = urvuu * 10 + digit
+#     n = n // 10
+# print(urvuu)
+#16
+# n = int(input())
+# original = n
+# urvuu = 0
+# while n > 0:
+#     digit = n % 10
+#     urvuu = urvuu * 10 + digit
+#     n = n // 10
+# if original == urvuu:
+#     print("Palindrom")
+# else:
+#     print("Palindrom bish")
+#17
+# n = int(input())
+# i = 2
+# count = 0
+# while i < n:
+#     if n % i == 0:
+#         count += 1
+#     i += 1
+# if n > 1 and count == 0:
+#     print("Anhnii too")
+# else:
+#     print("Anhnii too bish")
+#18
+# n = int(input())
+# num = 2
+# while num <= n:
+#     i = 2
+#     count = 0
+#     while i < num:
+#         if num % i == 0:
+#             count += 1
+#         i += 1
+#     if count == 0:
+#         print(num)
+#     num += 1
+# #19
+# n = int(input())
+# i = 1
+# while i <= 10:
+#     print(n, "*", i, "=", n * i)
+#     i += 1
+# #20
+# password = input()
+# while password != "python123":
+#     print("Buruu nuuts ug")
+#     password = input()
+# print("Zuv nuuts ug")

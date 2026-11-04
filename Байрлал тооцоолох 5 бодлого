@@ -1,0 +1,31 @@
+#1
+# n, m = map(int, input().split())
+# k = int(input())
+# row = (k - 1) // m + 1
+# seat = (k - 1) % m + 1
+# print(row, seat)
+#2
+# n, m = map(int, input().split())
+# k = int(input())
+# cabinet = (k - 1) // m + 1
+# folder = (k - 1) % m + 1
+# print(cabinet, folder)
+#3
+# n, m = map(int, input().split())
+# k = int(input())
+# group = (k - 1) // m + 1
+# student = (k - 1) % m + 1
+# print(group, student)
+#4
+# n, m = map(int, input().split())
+# k = int(input())
+# floor = (k - 1) // m + 1
+# place = (k - 1) % m + 1
+# print(floor, place)
+#5
+# n, m, p = map(int, input().split())
+# k = int(input())
+# sector = (k - 1) // (m * p) + 1
+# row = ((k - 1) % (m * p)) // p + 1
+# seat = (k - 1) % p + 1
+# print(sector, row, seat)

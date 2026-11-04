@@ -1,0 +1,183 @@
+# def merge_sort(numbers):
+#     if len(numbers) <= 1:
+#         return numbers
+#     mid = len(numbers) // 2
+#     left = numbers[:mid]
+#     right = numbers[mid:]
+#     left = merge_sort(left)
+#     right = merge_sort(right)
+#     result = []
+#     i = 0
+#     j = 0
+#     while i < len(left) and j < len(right):
+#         if left[i] <= right[j]:
+#             result.append(left[i])
+#             i += 1
+#         else:
+#             result.append(right[j])
+#             j += 1
+#     while i < len(left):
+#         result.append(left[i])
+#         i += 1
+#     while j < len(right):
+#         result.append(right[j])
+#         j += 1
+#     return result
+# numbers = [38, 27, 43, 3, 9, 82, 10]
+# print(merge_sort(numbers))
+# # #########1
+# def merge_sort(numbers):
+#     if len(numbers) <= 1:
+#         return numbers
+#     mid = len(numbers) // 2 
+#     left = numbers[:mid]
+#     right = numbers[mid:]
+#     left = merge_sort(left)
+#     right = merge_sort(right)
+#     result = []
+#     i = 0
+#     j = 0
+#     while i < len(left) and j < len(right):
+#         if left[i] <= right[j]:
+#             result.append(left[i])
+#             i+=1
+#         else:
+#             result.append(right[j])
+#             j+=1
+#     while i < len(left):
+#         result.append(left[i])
+#         i+=1
+#     while j < len(right):
+#         result.append(right[j])
+#         j+=1
+#     return result
+# numbers = [38, 27, 43, 3, 9, 82, 10]
+# print(merge_sort(numbers))
+
+#######2
+# def merge_sort(numbers):
+#     if len(numbers) <= 1:
+#         return numbers
+#     mid = len(numbers) // 2 
+#     left = numbers[:mid]
+#     right = numbers[mid:]
+#     left = merge_sort(left)
+#     right = merge_sort(right)
+#     result = []
+#     i = 0
+#     j = 0
+#     while i < len(left) and j < len(right):
+#         if left[i] >= right[j]:
+#             result.append(left[i])
+#             i+=1
+#         else:
+#             result.append(right[j])
+#             j+=1
+#     while i < len(left):
+#         result.append(left[i])
+#         i+=1
+#     while j < len(right):
+#         result.append(right[j])
+#         j+=1
+#     return result
+# numbers = [38, 27, 43, 3, 9, 82, 10]
+# print(merge_sort(numbers))
+
+#####3
+# def merge_sort(numbers):
+#     if len(numbers) <= 1:
+#         return numbers
+#     mid = len(numbers) // 2 
+#     left = numbers[:mid]
+#     right = numbers[mid:]
+#     left = merge_sort(left)
+#     right = merge_sort(right)
+#     result = []
+#     i = 0
+#     j = 0
+#     while i < len(left) and j < len(right):
+#         if left[i] <= right[j]:
+#             result.append(left[i])
+#             i+=1
+#         else:
+#             result.append(right[j])
+#             j+=1
+#     while i < len(left):
+#         result.append(left[i])
+#         i+=1
+#     while j < len(right):
+#         result.append(right[j])
+#         j+=1
+#     return result
+# numbers = [5, 3, 8, 3, 1, 5, 5]
+# print(merge_sort(numbers))
+
+#########4
+
+# def merge_sort(numbers):
+#     if len(numbers) <= 1:
+#         return numbers
+#     mid = len(numbers) // 2
+#     left = numbers[:mid]
+#     right = numbers[mid:]
+#     left = merge_sort(left)
+#     right = merge_sort(right)
+#     result = []
+#     i = 0
+#     j = 0
+#     while i < len(left) and j < len(right):
+#         if left[i] <= right[j]:
+#             result.append(left[i])
+#             i += 1
+#         else:
+#             result.append(right[j])
+#             j += 1
+#     while i < len(left):
+#         result.append(left[i])
+#         i += 1
+#     while j < len(right):
+#         result.append(right[j])
+#         j += 1
+#     return result
+# numbers = [-3, -9, 0, -1, -12]
+# print(merge_sort(numbers))
+
+###########5
+def merge_sort(numbers):
+    if len(numbers) <= 1:
+        return numbers
+    mid = len(numbers) // 2
+    left = numbers[:mid]
+    right = numbers[mid:]
+    left = merge_sort(left)
+    right = merge_sort(right)
+    result = []
+    i = 0
+    j = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    while i < len(left):
+        result.append(left[i])
+        i += 1
+    while j < len(right):
+        result.append(right[j])
+        j += 1
+    return result
+def tegsh_sondgoi_sort(arr):
+    tegsh = []
+    sondgoi = []
+    for x in arr:
+        if x % 2 == 0:
+            tegsh.append(x)
+        else:
+            sondgoi.append(x)
+    tegsh = merge_sort(tegsh)
+    sondgoi = merge_sort(sondgoi)
+    return tegsh + sondgoi
+print(tegsh_sondgoi_sort([7, 2, 9, 4, 1, 6]))
+print(tegsh_sondgoi_sort([3, 1, 5]))

@@ -1,0 +1,158 @@
+#1
+# n = [1, 2, 2, 3, 4, 4, 5]
+# a = set(n)
+# print(a)
+
+#2
+# jims = {"apple", "banana"}
+# jims.add("orange")
+# print(jims)
+
+#3
+# jims = {"apple", "banana", "orange"}
+# jims.remove("banana")
+# print(jims)
+
+#4
+# n = {10, 20, 30, 40}
+# if 20 in n:
+#     print("YES")
+# else:
+#     print("NO")
+
+#5
+# n = set(map(int, input().split()))
+# print(len(n))
+
+#6
+# ners = ["Bat", "Sara", "Bat", "Bold", "Sara", "Anu"]
+# print(len(set(ners)))
+
+#7
+# a = {1, 2, 3}
+# b = {3, 4, 5}
+# print(a | b)
+
+#8
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
+# print(a & b)
+
+#9
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
+# print(a - b)
+
+#10
+# python_students = {"Bat", "Sara", "Bold", "Anu"}
+# java_students = {"Sara", "Bold", "Temuulen"}
+# print(python_students & java_students)
+
+#11
+# python_students = {"Bat", "Sara", "Bold", "Anu"}
+# java_students = {"Sara", "Bold", "Temuulen"}
+# print(python_students ^ java_students)
+
+#12
+# ug = input()
+# print(len(set(ug)))
+
+#13
+# surgc = {"name": "Bat","age": 18,"score": 95}
+# print(surgc)
+
+#14
+# surgc = {"name": "Sara","age": 19,"score": 90}
+# print(surgc["name"])
+
+#15
+# surgc = {"name": "Bat","age": 18,"score": 85}
+# surgc["score"] = 98
+# print(surgc)
+
+#16
+# surgc = {"name": "Anu","age": 18}
+# surgc["city"] = "Ulaanbaatar"
+# print(surgc)
+
+#17
+# surgc = {"name": "Bold","age": 20,"score": 88}
+# surgc.pop("age")
+# print(surgc)
+
+#18
+# car = {"brand": "Toyota","model": "Prius","year": 2015}
+# print(car.keys())
+
+#19
+# car = {"brand": "Toyota","model": "Prius","year": 2015}
+# print(car.values())
+
+#20
+# surgc = {"name": "Bat","age": 18,"score": 95}
+# for key, value in surgc.items():
+#     print(key, value)
+
+#21
+# surgc = {"name": "Sara", "age": 19, "score": 92}
+# if "score" in surgc:
+#     print("YES")
+# else:
+#     print("NO")
+
+#22
+# baraa = {"name": "Keyboard", "price": 120000, "stock": 5}
+# uld = baraa["stock"]
+# if uld == 0:
+#     print("duussan")
+# else:
+#     print("bgaa")
+
+#23
+# dun = {"Bat": 80,"Sara": 95,"Bold": 70,"Anu": 88}
+# for ner, dun in dun.items():
+#     if dun > 80:
+#         print(ner)
+
+#24
+# dun = {"Bat": 80, "Sara": 95,"Bold": 70,"Anu": 88}
+# xamgiin_ix = max(dun, key=dun.get)
+# print(xamgiin_ix, dun[xamgiin_ix])
+
+#25
+# n = {"Monday": 10,"Tuesday": 15,"Wednesday": 20}
+# print(sum(n.values()))
+
+#26
+# ug = input().split()
+# count = {}
+# for word in ug:
+#     if word in count:
+#         count[word] += 1
+#     else:
+#         count[word] = 1
+# for word, n in count.items():
+#     print(word, n)
+
+#27
+# surgc = {"Bat": ["Python", "Java"],"Sara": ["Python", "C++"],"Bold": ["Java", "Python"]}
+# xiceeluud = set()
+# for name, xicl in surgc.items():
+#     for lesson in xicl:
+#         xiceeluud.add(xicl)
+# print(xiceeluud)
+
+#28
+# surgc = {"Bat": "Ulaanbaatar","Sara": "Darkhan","Bold": "Ulaanbaatar","Anu": "Erdenet","Temuulen": "Darkhan"}
+# xotuud = set(surgc.values())
+# print(len(xotuud))
+
+#29
+# surgc = {"Bat": "Ulaanbaatar","Sara": "Darkhan","Bold": "Ulaanbaatar","Anu": "Erdenet"}
+# for ner, xot in surgc.items():
+#     if xot == "Ulaanbaatar":
+#         print(ner)
+
+#30
+# n = {"a": 10,"b": 20,"c": 10,"d": 30,"e": 20}
+# print(set(n.values()))

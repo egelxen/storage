@@ -1,0 +1,110 @@
+# ondr = int(input("jilee oruulnuu!", ))
+# if (ondr % 4 == 0 and ondr % 100 > 0) or ondr % 400 == 0:
+#     print("YES")
+# else:
+#     print("NO")
+
+# tomyo = a + b > c, a + c > b, b + c > a
+
+# a = int(input("1r tal?", ))
+# b = int(input("2r tal?", ))
+# c = int(input("3r tal?", ))
+# if a + b > c and a + c > b and b + c > a:
+#     print("Scalene")
+# elif a == b == c:
+#     print("Equilateral")
+# elif a == b or a == c or b == c:
+#     print("Isosceles")
+# else:
+#     print("not a triangle")
+
+# age = int(input("nasaa oruulna uu!, "))
+# day = input("odroo oruulnuu!, ", )
+# if age < 12 or age > 60:
+#     print("5k")
+# elif day == "weekend":
+#     print("12k")
+# elif day == "weekday":
+#     print("10k")
+
+# name = input("Username ee oruul, ")
+# password = input("Password oo oruul, ")
+# status = input("status aa oruul, ")
+# if name == "admin" and password == "1234":
+#     if status == "blocked":
+#         print("ACCOUNT BLOCKED")
+#     else:
+#         print("WELCOME")
+# else:
+#     print("LOGIN FAILED")
+
+# x1, y1 = map(int, input().split())
+# x2, y2 = map(int, input().split())
+# x, y = map(int, input().split())
+# if x1 <= x <= x2 and y1 <= y <= y2:
+#     print("INSIDE")
+# else:
+#     print("OUTSIDE")
+
+# a1, b1, a2, b2 = map(int, input().split())
+
+# if a1 <= b2 and a2 <= b1:
+#     print("YES")
+# else:
+#     print("NO")
+
+# year = int(input("year?, "))
+# month = int(input("month?, "))
+# day = int(input("day?, "))
+# if month < 1 or month > 12:
+#     print("INVALID")
+# elif day < 1:
+#     print("INVALID")
+# elif month in [1, 3, 5, 7, 8, 10, 12] and day <= 31:
+#     print("VALID")
+# elif month in [4, 6, 9, 11] and day <= 30:
+#     print("VALID")
+# elif month == 2:
+#     if (year % 4 == 0 and year % 100 > 0) or year % 400 == 0:
+#         if day <= 29:
+#             print("VALID")
+#         else:
+#             print("INVALID")
+#     else:
+#         if day <= 28:
+#             print("VALID")
+#         else:
+#             print("INVALID")
+# else:
+#     print("INVALID")
+
+# r = int(input("Mor?, "))
+# c = int(input("Bagana?, "))
+# if r < 1 or r > 8 or c < 1 or c > 8:
+#     print("INVALID")
+# elif (r + c) % 2 == 0:
+#     print("Black")
+# else:
+#     print("White")
+
+# dun = int(input("dun?, "))
+# irts = int(input("irts?, "))
+# zorcil = int(input("saxilga zorcil?, "))
+
+# if 90 <= dun and 95 <= irts and 0 == zorcil:
+#     print("FULL")
+# elif 80 <= dun and 90 <= irts and 1 == zorcil or 0 == zorcil:
+#     print("HALF")
+# else:
+#     print('NONE')
+
+# player1 = input("Player1, ")
+# player2 = input("Player2, ")
+# if player1 == player2:
+#     print("Draw")
+# elif (player1 == "rock" and player2 == "scissors") or \
+#      (player1 == "paper" and player2 == "rock") or \
+#      (player1 == "scissors" and player2 == "paper"):
+#     print("Player 1 wins")
+# else:
+#     print("Player 2 wins")

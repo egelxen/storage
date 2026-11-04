@@ -1,0 +1,111 @@
+#1  Бүхэл тоо уншаад эерэг/сөрөг, тэгш/сондгой эсэхийг хэвлэ. 0 бол Тэг гэж хэвлэ.
+# a = int(input())
+# if a > 0:
+#     print("eyreg")
+#     if a // 2 == 0:
+#         print("tegsh")
+#     else:
+#         print("sondgoi")
+# elif a < 0:
+#     print("sorog")
+#     if a // 2 == 0:
+#         print("tegsh")
+#     else:
+#         print("sondgoi")
+# elif a == 0:
+#         print("0")
+#2Даалгавар: 0–100 оноо уншаад үнэлгээг хэвлэ: A (90–100), B (80–89), C (70–79), D (60–69), F (0–59). Оноо 0-ээс бага эсвэл 100-аас их бол Буруу оноо гэж хэвлэ.
+# a = int(input())
+# if a < 0 or a > 100:
+#     print("buruu too!!!")
+# elif a >= 90:
+#     print("A")
+# elif a >= 80:
+#     print("B")
+# elif a >= 70:
+#     print("C")
+# elif a >= 60:
+#     print("D")
+# elif a <= 59:
+#     print("F")
+#3 Он уншаад өндөр жил мөн эсэхийг хэвлэ. Он 4-т хуваагддаг ба 100-д хуваагддаггүй бол, эсвэл 400-д хуваагддаг бол өндөр жил.
+# a = int(input())
+# if a % 4 == 0 and a % 100 != 0 or a % 400 == 0:
+#     print("ondor jil")
+# else:
+#     print("engiin jil")
+#4 Гурвалжны 3 талын уртыг уншина. Аль нэг хоёр талын нийлбэр гурав дахь талаасаа их биш бол Гурвалжин үүсэхгүй. Үгүй бол Тэгш талт, Адил хажуут эсвэл Энгийн гэж хэвлэ.
+# a, b, c = map(int,input().split())
+# if a + b < c:
+#     print("gurvaljin uusexgui")
+# elif a < b < c:
+#     print("engiin gurvaljin")
+# elif a == b == c:
+#     print("tegsh talt gurvaljin")
+# elif a + b > c:
+#     print("adil xajuut gurvaljin")
+#5 Эхний 2 км 3000₮, түүнээс хойшх км бүр 1500₮. Шөнийн цагаар (22:00–05:59) нийт дүн дээр 2000₮ нэмэгдэнэ. Км (бүхэл тоо) ба цаг (0–23) уншаад төлбөрийг хэвлэ.
+# a = int(input("km:"))
+# b = int(input("tsag:"))
+# if a <= 2:
+#     tulbur = 3000
+# else:
+#     tulbur = 3000 + (a - 2) * 1500
+# if b >= 22 or b <= 5:
+#     tulbur = tulbur + 2000
+# print(tulbur)
+#6 n уншаад 1-ээс n хүртэлх тэгш тоонуудын нийлбэрийг for давталтаар ол.
+# a = int(input())
+# dun = 0
+# for i in range(2,a + 1,2): 
+#     dun = dun + i
+# print(dun)
+#7 Эерэг бүхэл тоо уншаад цифрүүдийнх нь нийлбэрийг while давталтаар ол. str() ашиглахгүй.
+# a = int(input(""))
+# niilber = 0
+# while a > 0:
+#     niilber += a % 10
+#     a = a // 10
+# print(niilber)
+#8 Эерэг бүхэл тоог while давталтаар урвуулж хэвлэ. str() ашиглахгүй.
+# a = int(input())
+# urvuu = 0
+# while a > 0:
+#     tsipr = a % 10
+#     urvuu = urvuu * 10 + tsipr 
+#     a = a // 10
+# print(urvuu)
+#9 1-ээс n хүртэлх тоог нэг мөрөнд зайгаар тусгаарлаж хэвлэ. 3-т хуваагдвал тооны оронд Физ, 5-д хуваагдвал Базз, хоёуланд нь хуваагдвал ФизБазз гэж хэвлэ.
+# a = int(input())
+# for i in range(1, a + 1):
+#     if i % 3 == 0 and i % 5 == 0:
+#         print("PizzBazz", end = " ")
+#     elif i % 3 == 0:
+#         print("Pizz", end = " ")
+#     elif i % 5 == 0:
+#         print("Bazz", end = " ")
+#     else:
+#         print(i, end = " ")
+#10 Програмдаа secret = 37 гэж нууц тоо хадгал. Хэрэглэгч зөв таах хүртэл тоо уншиж, Их байна эсвэл Бага байна гэж хэвлэ. Зөв таавал хэдэн оролдлогоор таасныг хэвлэ.
+# secret = 37
+# oroldlogo = 0 
+# a = int(input("guess the number: "))
+# oroldlogo += 1
+# while a != secret:
+#     if a < secret:
+#         print("higher, try again")
+#     else:
+#         print("lower, try again")
+#     a = int(input("guess the number: "))
+#     oroldlogo += 1
+# print("Zov! Ci", oroldlogo,"udaa oroldoj taalaa")
+#11  n уншаад n × n хэмжээтэй үржүүлэх хүснэгтийг хэвлэ. Тоонуудыг зайгаар тусгаарла.
+# a = int(input())
+# for i in range(1, a + 1):
+#     for j in range(1, a + 1):
+#         print(i*j, end = " ")
+#     print()
+#12  n мөртэй пирамид хэвлэ. i-р мөрөнд эхлээд n − i зай, дараа нь 2i − 1 од байна.
+# a = int(input())
+# for i in range(1, a + 1):
+#     print(" " * (a - i) + "*" * (2 * i - 1))

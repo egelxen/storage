@@ -1,0 +1,114 @@
+#1
+# n = int(input())
+# m = int(input())
+# for i in range(1, n + 1):
+#     total = 0
+#     for j in range(m):
+#         dun = int(input())
+#         total += dun
+#     dundaj = total / m
+#     print(i, "-r suragc: niit", total, ", dundaj", dundaj)
+#     if dundaj >= 60:
+#         print("tentssen")
+#     else:
+#         print("tentseegui")
+#2
+# n = int(input())
+# for i in range(1, n + 1):
+#     m = int(input())
+#     total = 0
+#     for j in range(m):
+#         price = int(input())
+#         count = int(input())
+#         total += price * count
+#     money = int(input())
+#     print(i, "-r xunii tolox dun:", total)
+#     if money >= total:
+#         print("xariult:", money - total)
+#     else:
+#         print("dutuu mongo:", total - money)
+#3
+# n = int(input())
+# for i in range(1, n + 1):
+#     tsalin = 0
+#     for j in range(5):
+#         tsag = int(input())
+#         if tsag <= 8:
+#             tsalin += tsag * 5000
+#         else:
+#             tsalin += 8 * 5000
+#             tsalin += (tsag - 8) * 7500
+#     print(i, "-r ajilcni niit tsalin:", tsalin)
+#4
+# n, m = map(int, input().split())
+# for i in range(1, n + 1):
+#     orr = int(input())
+#     total = 0
+#     for j in range(1, m + 1):
+#         tololt = int(input())
+#         orr -= tololt
+#         total += tololt
+#         print(i, "-r xun,", j, "-r sariin daraax uldegdel:", orr)
+#     print("niit tolson:", total)
+#5
+# n, m = map(int, input().split())
+# for i in range(1, n + 1):
+#     total = 0
+#     for j in range(m):
+#         buteegdexun = int(input())
+#         total += buteegdexun
+#     box = total // 12
+#     remainder = total % 12
+#     print(i, "-r odor: niit", total, ", buten xairtsag", box, ", uldegdel", remainder)
+#6
+# n, m = map(int, input().split())
+# for i in range(1, n + 1):
+#     zorcigcid = 0
+#     total = 0
+#     for j in range(1, m + 1):
+#         down = int(input())
+#         up = int(input())
+#         zorcigcid -= down
+#         zorcigcid += up
+#         total += up
+#         print(j, "-r buudliin daraa:", zorcigcid, "xun")
+#     print(i, "-r aylald niit suusan:", total)
+#     print("ayllin orlogo:", total * 1000)
+#7
+# n = int(input())
+# for i in range(1, n + 1):
+#     count = 0
+#     total = 0
+#     for j in range(1, i + 1):
+#         if i % j == 0:
+#             count += 1
+#             total += j
+#     print(i, ":", count, "xuvaagctai, niilber", total)
+#8
+# n = int(input())
+# count = 0
+# for i in range(1, n + 1):
+#     for j in range(i, n + 1):
+#         if i + j == n:
+#             print(i, "+", j, "=", n)
+#             count += 1
+# print("niit:", count, "xos")
+#9
+# n = int(input())
+# count = 0
+# for i in range(n // 1000 + 1):
+#     uld = n - i * 1000
+#     if uld % 2000 == 0:
+#         j = uld // 2000
+#         print("1000tog:", i, "shirxeg, 2000tog:", j, "shirxeg")
+#         count += 1
+# print("niit:", count, "xuvilbar")
+#10
+# n = int(input())
+# count = 0
+# for i in range(1, n + 1):
+#     for j in range(i, n + 1):
+#         if i * j == n:
+#             print(i, "x", j, "=", n, ", ylgavar", j - i)
+#             count += 1
+# print("niit:", count, "xos")
