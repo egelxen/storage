@@ -1,0 +1,41 @@
+#1
+# user1 = {"Bat", "Sara", "Bold", "Anu"}
+# user2 = {"Bold", "Anu", "Temuulen", "Naraa"}
+# print(user1 & user2)
+
+#2
+# players = {"Bat", "Sara", "Bold", "Anu", "Naraa", "Temuulen"}
+# played = {"Bat", "Bold", "Naraa"}
+# print(players - played)
+
+#3
+# team_a = {"Bat", "Bold", "Anu", "Sara"}
+# team_b = {"Anu", "Sara", "Naraa", "Temuulen"}
+# a = team_a - team_b
+# b = team_b - team_a
+# print(a | b)
+
+#4
+# known = {"Python", "HTML", "CSS"}
+# required = {"Python", "JavaScript", "SQL"}
+# print(required - known)
+
+#5
+# xicl = ["Python", "Math", "Python", "English", "Math", "Physics"]
+# unique = set(xicl)
+# print("Too:", len(unique))
+# print(unique)
+
+#6
+# password = input()
+# letters = set()
+# digits = set()
+# for ch in password:
+#     if ch.isalpha():
+#         letters.add(ch)
+#     elif ch.isdigit():
+#         digits.add(ch)
+# print("Letters:", len(letters))
+# print("Digits:", len(digits))
+
+#7
